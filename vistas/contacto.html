@@ -29,6 +29,36 @@
         <p>Mail: levi.cook@fake.com</p>
         <p>LinkedIn: /levi.cook/</p>
     </h1>    
+    <div class="formulario__contacto">
+        <form
+        action="https://formspree.io/f/mgedpnel"
+        method="POST"
+        id="form">
+            <label class="form-label" for="text">
+            Nombre:
+            <input type="text" name="text" id="text" class="form-control" placeholder="nombre completo" required>
+            </label>
+            <label class="form-label" for="text">
+            Telefono:
+              <input type="tel" name="telefono" id="telefono" class="form-control" placeholder="1234-5678">
+              </label>
+            <label class="form-label" for="email">
+            E-mail:
+            <input type="email" name="email" id="email" class="form-control" placeholder="mail@ejemplo.com" required>
+            </label>
+            <label class="form-label" for="mensaje">
+            Mensaje
+              <textarea class="form-control" name="mensaje" id="mensaje" cols="55" rows="10" placeholder="Contanos en qué podemos ayudarte..." required></textarea>
+            </label>
+        
+        <!-- your other form fields go here -->
+        <div class="boton--container">
+            <button type="submit" class="bt-form">Contactar</button>
+         </div>
+        </form>
+    </div>
+</div>  
+<script src="../index.js"></script>
 </body>
 <footer>
     <h4>Mis redes:</h4>
